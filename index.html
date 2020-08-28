@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ETL PROJECT</title>
+    <!-- Bring in our bootstrap stylesheet -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">World Population 1960-2016</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-md-8"></div>
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    ETL
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">"Extract.html">Extract</a>
+                    <a class="dropdown-item" href="#">"Transform.html">Transform</a>
+                    <a class="dropdown-item" href="#">"Load.html">Load</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+            
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">"WorldPopulation.html">World Population 1960-2016</a>
+                    <a class="dropdown-item" href="#">"WorldPopulationChange.html">World Population Change</a>
+                    <a class="dropdown-item" href="#">"FertilityRates.html">Fertility Rates</a>
+                    <a class="dropdown-item" href="#">"LifeExpectancy.html">Life Expectancy</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Correlations.html">Correlations</a>
+            </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h2><p class="text-left"> ETL PROJECT REPORT</p></h2>
+                        <div>
+                            <img class="rounded float-left thumbnail" src="Images/Scatterplot_Latitude_MaxTemp.png" width=30% alt="Latitude vs Max Temperature">
+                                <p> The purpose of this project is to go over the ETL process to analyze the World Population Data from 1960 to 2016.
+                                    We are looking for a big picture of the world, analyzing factors like Fertility Rates and Life Expectancy.
+                                <p> First we obtain the data from Koggle. We choose three data sets in csv format representing:
+                                                                                                          
+                                    <ul>                                        
+                                        <li>World Population <a href="https://www.kaggle.com/gemartin/world-bank-data-1960-to-2016?select=country_population.csv">link text</a></li>
+                                        <li>Fertiity Rates <a   href="https://www.kaggle.com/gemartin/world-bank-data-1960-to-2016?select=fertility_rate.csv">link text</a></li>
+                                        <li>Life Expectancy <a href="https://www.kaggle.com/gemartin/world-bank-data-1960-to-2016?select=life_expectancy.csv">link text</a></li>
+                                    </ul>
+                                    
+                                </p>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div class="col-md-4">
+        <div class="panel-body"></div>
+            <h2>Visualizations</h2>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <h5 class = "text-left">Extract</h5>
+                        <a href="temperature.html"><img class="rounded float-left thumbnail" src="Images/Scatterplot_Latitude_MaxTemp.png" width=80% alt="Latitude vs Max Temperature"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <h5 class="text-right">Latitude vs Humidity</h5>
+                        <a href="humidity.html"><img class="rounded float-right thumbnail" src="Images/Scatterplot_Latitude_Humidity.png" width=80% alt="Latitude vs Humidity"></a>
+                    </div>
+
+                </div>
+            </div>   
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <h5 class="text-left">Latitude vs Cloudiness</h5>
+                        <a href="cloudiness.html"><img class="rounded float-left thumbnail" src="Images/Scatterplot_Latitude_Cloudiness.png" width=80% alt="Latitude vs Cloudiness"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <h5 class="text-right">Latitude vs Wind Speed</h5>
+                        <a href="windspeed.html"><img class="rounded float-right thumbnail" src="Images/Scatterplot_Latitude_Wind Speed.png" width=80% alt="Latitude vs WindSpeed"></a>
+                    </div>
+                   
+                </div>
+            </div> 
+        
+    </div>
+
+</body>
+
+</html>
