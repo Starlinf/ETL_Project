@@ -8,10 +8,9 @@ Inspiration: To obtain a big picture of the world, analyzing life expectancy at 
 
 Questions
 
-> How had the world population changed during the analyzed time frame?
-> Which countries had the highest population growth rates over time? (i.e. calculate annual % change in population)
-> Were those countries population growth driven by births (i.e. fertility rate)?
-> Which countries were likely to have a higher aging population? (Compare fertility rate vs. life expectancy)
+* How had the world population changed during the analyzed time frame?
+* What was the annual population change?
+* What is the correlation between (1) fertility rates and population change and (2) life expectancy and population change?
 
 
 Data Sources:
