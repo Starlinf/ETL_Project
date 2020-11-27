@@ -4,7 +4,9 @@ This project obtain a big picture of the world by analyzing life expectancy at b
 
 ![Project Image](resources/images/healthylifespan-367x262.png =250x250)
 
-<img src="resources/images/healthylifespan-367x262.png" width="800" height="800">
+<img src="https://www.co.winnebago.wi.us/sites/default/files/resize/uploaded-images/healthylifespan-367x262.png" width="700" height="700">
+
+
 
 Questions
 
