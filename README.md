@@ -1,11 +1,8 @@
 # Life Expectancy
 
-Event Name: Life Expectancy ETL Project 
+This project obtain a big picture of the world by analyzing life expectancy at birth, fertility rate and country population. 
 
-Date: Thursday August 27, 2020
-
-Theme: World Bank Data 1960 to 2016
-Inspiration: To obtain a big picture of the world by analyzing life expectancy at birth, fertility rate and country population. 
+![Project Image](resources/images/healthylifespan-367x262.png)
 
 Questions
 
