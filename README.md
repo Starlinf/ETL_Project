@@ -2,7 +2,6 @@
 
 This project obtain a big picture of the world by analyzing life expectancy at birth, fertility rate and country population. 
 
-![Project Image](resources/images/healthylifespan-367x262.png =250x250)
 
 <img src="https://www.co.winnebago.wi.us/sites/default/files/resize/uploaded-images/healthylifespan-367x262.png" width="1000" height="500">
 
