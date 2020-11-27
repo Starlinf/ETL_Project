@@ -4,6 +4,8 @@ This project obtain a big picture of the world by analyzing life expectancy at b
 
 ![Project Image](resources/images/healthylifespan-367x262.png =250x250)
 
+<img src="hresources/images/healthylifespan-367x262.png" width="100" height="100">
+
 Questions
 
 * How had the world population changed during the analyzed time frame?
