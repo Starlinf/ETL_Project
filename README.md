@@ -2,7 +2,7 @@
 
 This project obtain a big picture of the world by analyzing life expectancy at birth, fertility rate and country population. 
 
-![Project Image](resources/images/healthylifespan-367x262.png | width=100)
+![Project Image](resources/images/healthylifespan-367x262.png =250x250)
 
 Questions
 
