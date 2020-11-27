@@ -4,7 +4,7 @@ This project obtain a big picture of the world by analyzing life expectancy at b
 
 ![Project Image](resources/images/healthylifespan-367x262.png =250x250)
 
-<img src="resources/images/healthylifespan-367x262.png" width="100" height="100">
+<img src="resources/images/healthylifespan-367x262.png" width="400" height="400">
 
 Questions
 
